@@ -7,12 +7,14 @@
   },
   "background": {
     "scripts": [
+      "src/main/resources/browser-polyfill.js",
       "build/kotlin-js-min/main/kotlin.js",
       "build/kotlin-js-min/main/declarations.js",
       "build/kotlin-js-min/main/ff-search-kotlin.js"
     ]
   },
   "permissions": [
-    "menus"
+    "menus",
+    "contextMenus"
   ]
 }
